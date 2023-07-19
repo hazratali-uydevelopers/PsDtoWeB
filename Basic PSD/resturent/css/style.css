@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yeseva One', cursive;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* common heading */
+
+#header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.menu ul li a {
+    color: #fff;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 21px;
+    transition: all linear 0.3s;
+    margin: 0 10px;
+    line-height: 100px;
+    transition-duration: 0s;
+}
+
+.active,
+.menu ul li a:hover {
+    border-top: 3px solid #ffffff;
+    padding-top: 35px;
+}
+
+.menu ul li a i {
+    color: #dab33e;
+}
+
+#banner {
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_overlay {
+    padding: 240px 0 140px;
+}
+
+.banner_content h1 {
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    text-align: center;
+}
+
+.banner_content a {
+    padding: 20px 52px;
+    background-color: rgba(0, 0, 0, .5);
+    border: 1px solid #000;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    transition: all linear .3s;
+}
+
+.banner_content a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #fff;
+}
+
+
+#about {
+    background: url(../img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about_overlay {
+    padding: 100px 0;
+}
+
+.about_content h2 {
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    margin-bottom: 10px;
+}
+
+.about_content p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+#igredients {
+    background: url(../img/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.igredients_overlay {
+    padding: 100px 0;
+}
+
+.igredients_content {
+    padding: 15%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.igredients_content h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.igredients_content p {
+    color: #fff;
+    margin-bottom: 45px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+#review {
+    background: url(../img/banner5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.review_overlay {
+    padding: 100px 0;
+}
+
+.review_content {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 15%;
+}
+
+.review_content h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.review_content p {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Gentium Book Basic', serif;
+    position: relative;
+}
+
+.review_content p::before {
+    content: '“';
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    font-size: 80px;
+    color: #f2f4f4;
+    font-family: sans-serif;
+}
+
+#menu {
+    background: url(../img/banner4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu_overlay {
+    padding: 100px 0;
+}
+
+.heading h3 {
+    color: #cc9900;
+    font-size: 36px;
+}
+
+.menu_item {
+    padding: 5px 10px;
+}
+
+.menu_item h4 {
+    color: #cc9900;
+    font-size: 21px;
+}
+
+.menu_item p {
+    color: #4c4c4c;
+    font-size: 14px;
+}
+
+.special {
+    border: 1px solid #d8be75;
+    position: relative;
+}
+
+.special::before {
+    content: 'Special';
+    position: absolute;
+    right: -1px;
+    top: -22px;
+    background-color: #d8be75;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 8px;
+}
+
+#form {
+    background: url(../img/banner6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form_overlay {
+    padding: 100px 0;
+}
+
+#form h2 {
+    color: #cc9900;
+}
+
+#form p {
+    color: #4c4c4c;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    color: #c9a131;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form input::placeholder {
+    color: #7c7c7c;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.input-group-text {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #c9a131;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn,
+.btn:hover {
+    color: #fff;
+    background-color: #c9a131;
+    border: 1px solid #c9a131;
+    padding: .375rem 1.75rem;
+    border-radius: 0;
+    transition: all linear .3s;
+}
+
+footer {
+    background-color: #191919;
+    padding: 50px 0;
+}
+
+footer h4 {
+    font-size: 21px;
+}
+
+footer p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu ul li a {
+        font-size: 16px;
+        margin: 0 5px;
+    }
+    .banner_content h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header .container {
+        padding: 0;
+    }
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+    .menu ul li a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    .menu ul li:nth-child(7),
+    .menu ul li:nth-child(8),
+    .menu ul li:nth-child(9) {
+        display: none;
+    }
+    .banner_content h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    header .container {
+        padding: 0;
+    }
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+    .menu ul li a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    .menu ul li:nth-child(7),
+    .menu ul li:nth-child(8),
+    .menu ul li:nth-child(9) {
+        display: none;
+    }
+    .banner_content h1 {
+        font-size: 32px;
+    }
+}

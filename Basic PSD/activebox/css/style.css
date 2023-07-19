@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+.center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #6c7279;
+}
+
+/* common css ends */
+
+header {
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul li a {
+    margin: 0 40px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+nav ul:last-child a {
+    margin-right: 0;
+}
+
+/* header css ends */
+
+#banner {
+    background: url(../images/bnr.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bnr_content {
+    margin: 0 auto;
+    padding: 250px 0px 150px;
+}
+
+.bnr_content h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: bold;
+    padding: 0 20%;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.bnr_content p {
+    color: #ffffff;
+    font-size: 22px;
+    padding: 0 20%;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+
+.bnr_content .more {
+    padding: 75px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.bnr_content .more a {
+    color: #ffffff;
+    font-size: 13px;
+    background: #e84545;
+    padding: 20px 50px;
+    border-radius: 1px;
+    text-align: center;
+}
+.bnr_content .more a:hover {
+    background: #e71b1b;
+}
+
+/* banner css ends */
+
+#features {
+    padding: 100px 0 160px;
+}
+
+#features h2 {
+    color: #2D3033;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#features p {
+    color: #6C7279;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 0;
+    font-family: sans-serif;
+}
+
+#features .icon {
+    display: flex;
+    justify-content: center;
+}
+
+#features .icon i {
+    font-size: 70px;
+    padding-bottom: 30px;
+    color: #e84545;
+}
+
+/* features css ends */
+
+.gly {
+    position: relative;
+    border: .5px solid #ffffff;
+    padding: 0;
+}
+
+.gly:hover .gly_info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gly_info {
+    background-color: rgba(232, 69, 69, .8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.gly_info h3 {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+} 
+
+.gly_info p {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: sans-serif;
+}
+
+/* gallery css ends */
+
+#team {
+    padding: 100px 0;
+}
+
+#team h4 {
+    padding: 20px 0 15px;
+    color: #2D3033;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+#team h5 {
+    padding-bottom: 24px;
+    color: #E84545;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+#team p {
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 10%;
+    font-family: sans-serif;
+}
+
+.social_icon {
+    height: 40px;
+    width: 40px;
+    border: .3px solid #e8ecee;
+    border-radius: 1px;
+    margin-right: 5px;
+    transition: all linear 0.3s;
+    margin-top: 40px;
+}
+
+.social_icon:hover {
+    color: #ffffff;
+    background-color: #E84545 ;
+}
+
+/* team css ends */
+
+#clint {
+    padding-bottom: 100px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    right: -40%;
+    bottom: 10%;
+}
+
+/* clint css ends */
+
+#download h2 {
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: bold;
+}
+
+#download p {
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#download a {
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 80px;
+    background-color: #e84545;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 20px 0 100px;
+}
+
+#download a:hover {
+    background-color: #e71b1b;
+}
+
+/* download css ends */
+
+#contact {
+    padding: 75px 0;
+    background-color: #3a3e64;
+}
+
+#contact h6 {
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#contact p {
+    font-size: 14px;
+    color: #f1f1f1;
+    line-height: 24px;
+}
+
+.con_p {
+    padding: 0 25%;
+}
+
+.social_icon2 {
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border: 1px solid #e8ecee;
+    border-radius: 1px;
+    margin-right: 5px;
+    transition: all linear 0.3s;
+}
+
+.social_icon2:hover {
+    color: #ffffff;
+    border-color: #E84545 ;
+    background-color: #E84545 ;
+}
+
+/* contact css ends */
+
+footer {
+    background-color: #313454;
+    padding: 30px 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #808080;
+}
+
+.heart {
+    color: #E84545;
+}
+
+/* css ends */
+
+@media (max-width: 575.98px) { 
+    nav ul li a {
+        margin: 0 5px;
+        font-size: 10px;
+    }
+    header {
+        line-height: 20px;
+    }
+    header img {
+        display: block;
+        margin: 15px auto;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    .bnr_content h1 {
+        font-size: 16px;
+        padding: 0;
+    }
+    .bnr_content p {
+        font-size: 12px;
+        padding: 10%;
+    }
+    .bnr_content {
+        margin: 0 auto;
+        padding: 120px 0px 60px;
+    }
+    #clint {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav ul li a {
+        margin: 0 20px;
+        font-size: 12px;
+    }
+    .bnr_content h1 {
+        font-size: 32px;
+        padding: 0;
+    }
+    .bnr_content p {
+        font-size: 18px;
+        padding: 10%;
+    }
+    .bnr_content {
+        margin: 0 auto;
+        padding: 200px 0px 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bnr_content h1 {
+        font-size: 32px;
+        padding: 0;
+    }
+    .bnr_content p {
+        font-size: 18px;
+        padding: 10%;
+    }
+    .bnr_content {
+        margin: 0 auto;
+        padding: 200px 0px 100px;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bnr_content h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bnr_content h1 {
+        font-size: 50px;
+    }
+}

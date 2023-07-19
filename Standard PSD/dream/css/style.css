@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.common_heading {
+    margin-top: 50px;
+}
+
+.common_heading h2 {
+    color: #222;
+    font-size: 40PX;
+    text-align: center;
+}
+
+.line {
+    background: #35b9eb;
+    height: 2px;
+    width: 150px;
+    margin: 30px auto;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*common css ends*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .0rem;
+    padding-left: .0rem;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}  
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+button {
+    color: #fff;
+    margin-top: 10px;
+}
+
+button:focus {
+    outline: none;
+}
+
+/*header css ends*/
+
+#banner {
+    background: url(../images/bannner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 240px 0;
+}
+    
+#banner h1 {
+    color: #fff;
+    font-size: 50px;
+    padding: 0 15%;
+}
+    
+#banner p {
+    color: #ccc;
+    font-size: 20px;
+    padding: 0 27%;
+}
+
+/*banner css ends*/
+
+#service {
+    margin-bottom: 100px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service h3 {
+    color: #222;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.service p {
+    color: #888;
+    font-size: 14px;
+    padding: 0 5%
+}
+
+/*service css ends*/
+
+#expertise {
+    background: #f7f7f7;
+}
+
+.exp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    flex-basis: 12%;
+}
+
+.two {
+    flex-basis:88%;
+}
+
+
+#expertise h2 {
+    color: #222;
+    font-size: 40px;
+    margin: 100px 0 30px;
+}
+
+#expertise p {
+    color: #777;
+    margin-bottom: 50px
+}
+
+.two h3 {
+    color: #222;
+    font-size: 18px;
+}
+
+.two p {
+    color: #777;
+    font-size: 14px;
+}
+
+#expertise a {
+    padding: 16px 30px;
+    border: 1px solid #35b9eb;
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222;
+    background: #fff;
+    transition: all linear 0.4s;
+}
+
+#expertise a:hover {
+    background: #35b9eb;
+    color: #fff;
+}
+
+
+/*expertise css ends*/
+
+
+#portfolio .content {
+    background: url(..//images/user.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#portfolio h2 {
+    color: #222;
+    font-size: 40px;
+    margin: 100px 0 30px;
+}
+
+#portfolio p {
+    color: #777;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/*portfolio css ends*/
+
+#gallery {
+    margin-bottom: 100px;
+}
+
+/* gallery css ends */
+#about_us .content h3,
+#about_us .content h4 {
+    font-size: 16px;
+    color: #222222;
+}
+
+#about_us .content p {
+    font-size: 14px;
+    color: #777777;
+    margin-top: 20px;
+}
+
+/* about us css ends */
+
+#team {
+    margin-bottom: 100px;
+}
+
+#team .content h4 {
+    font-size: 16px;
+    color: #222222;
+    margin-top: 10px;
+}
+
+#team .content h5 {
+    font-size: 14px;
+    color: #777777;
+    margin: 10px 0 20px;
+}
+
+#team .content .icon img {
+    margin: 0 5px;
+}
+
+#team .content p{
+    color: #777777;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/* team css ends */
+
+#contact{
+    background-color: #000;
+    padding-top: 100px;
+}
+
+#contact .content {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+#contact .content h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#contact .content p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+#contact .content ul li {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+#contact .content ul li i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+#contact .content input {
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+#contact .content input::placeholder,
+#contact .content textarea::placeholder {
+    color: rgb(116, 116, 116);
+}
+
+#contact .content textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+#contact .content button {
+    background-color: #35c2f8;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 35px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+}
+
+/* contact css ends */
+
+footer {
+    padding: 50px 0;
+    background-color: #000;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #banner h1 {
+        font-size: 40px;
+        padding: 0;
+    }
+    #banner p {
+        font-size: 18px;
+        padding: 0;
+    }
+    #contact .content ul li {
+        margin-bottom: 20px;
+        display: flex;
+    }
+    #contact .content ul li i {
+    font-size: 30px;
+    margin-right: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .common_heading {
+        margin-top: 30px;
+    }
+    .common_heading h2 {
+        font-size: 32px;
+    }
+    header {
+        background-color: #222;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0;
+    }
+    #banner {
+        margin-top: 90px;
+    }
+    #banner h1 {
+        font-size: 40px;
+        padding: 0;
+    }
+    #banner p {
+        font-size: 18px;
+        padding: 0;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    #expertise h2 {
+        font-size: 32px;
+        margin: 0 0 30px;
+    }
+    #expertise p {
+        margin-bottom: 30px;
+    }
+    #portfolio h2 {
+        font-size: 32px;
+    }
+    #contact .content h3 {
+        font-size: 32px;
+    }
+    #contact .content ul li {
+        margin-bottom: 20px;
+        display: flex;
+    }
+    #contact .content ul li i {
+    font-size: 30px;
+    margin-right: 15px;
+    }
+    #contact .content textarea {
+        height: 250px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .common_heading {
+        margin-top: 30px;
+    }
+    .common_heading h2 {
+        font-size: 26px;
+    }
+    header {
+        background-color: #222;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0;
+    }
+    #banner {
+        margin-top: 90px;
+        padding: 140px 0;
+    }
+    #banner h1 {
+        font-size: 32px;
+        padding: 0;
+    }
+    #banner p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    #expertise h2 {
+        font-size: 26px;
+        margin: 0 0 30px;
+    }
+    #expertise p {
+        margin-bottom: 30px;
+    }
+    #portfolio h2 {
+        font-size: 26px;
+    }
+    #contact .content h3 {
+        font-size: 26px;
+    }
+    #contact .content ul li {
+        margin-bottom: 20px;
+        display: flex;
+    }
+    #contact .content ul li i {
+    font-size: 30px;
+    margin-right: 15px;
+    }
+    #contact .content textarea {
+        height: 250px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .common_heading {
+        margin-top: 30px;
+    }
+    .common_heading h2 {
+        font-size: 26px;
+    }
+    header {
+        background-color: #222;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0;
+    }
+    #banner {
+        margin-top: 90px;
+        padding: 140px 0;
+    }
+    #banner h1 {
+        font-size: 32px;
+        padding: 0;
+    }
+    #banner p {
+        font-size: 16px;
+        padding: 0;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    #expertise h2 {
+        font-size: 26px;
+        margin: 0 0 30px;
+    }
+    #expertise p {
+        margin-bottom: 30px;
+    }
+    #portfolio h2 {
+        font-size: 26px;
+    }
+    #contact .content h3 {
+        font-size: 26px;
+    }
+    #contact .content ul li {
+        margin-bottom: 20px;
+        display: flex;
+    }
+    #contact .content ul li i {
+    font-size: 30px;
+    margin-right: 15px;
+    }
+    #contact .content textarea {
+        height: 250px;
+    }
+}

@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style:  none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+/* common css ends */
+
+#header {
+    height: 100px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    line-height: 100px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav ul li a {
+    line-height: 100px;
+    color: #2d3950;
+    font-size: 24px;
+    margin: 0 30px;
+}
+
+.nav ul:last-child a {
+    margin-right: 0px;
+}
+
+/* header css ends */
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+}
+
+.bnr_overlay {
+    padding: 110px 0 90px;
+}
+
+.bnr_content {
+    text-align: center;
+}
+
+.bnr_content h1 {
+    color: #ffffff;
+    padding: 0 95px;
+    font-size: 120px;
+    font-weight: bold;
+    border-bottom: 2px solid #15a4fa;
+    display: inline-block;
+}
+
+.bnr_content p {
+    padding: 40px 0 70px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.bnr_content .button {
+    padding: 20px 35px;
+    color: #ffffff;
+    border: 2px solid #15a4fa;
+    border-radius: 5px;
+}
+
+.bnr_content .button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.bnr_content .next_section {
+    padding-top: 170px;
+}
+
+.bnr_content .next_section a {
+    color: #ffffff;
+}
+
+/* banner css ends */
+
+#service {
+    text-align: center;
+}
+
+
+.service_heading h2 {
+    color: #2d3950;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.service_heading p {
+    color: #999999;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+.service_one,
+.service_two,
+.service_three {
+    width: 33.33%;
+    float: left;
+}
+
+.service_icon {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #48baff), color-stop(50%, #5fc3ff));
+    background-image: -o-linear-gradient(left, #48baff 50%, #5fc3ff 50%);
+    background-image: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.service_icon:hover {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #5fc3ff), color-stop(50%, #48baff));
+    background-image: -o-linear-gradient(left, #5fc3ff 50%, #48baff 50%);
+    background-image: linear-gradient(to right, #5fc3ff 50%, #48baff 50%);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service_icon a {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 100px;
+    margin: 0 auto;
+}
+
+.service_one h3,
+.service_two h3,
+.service_three h3 {
+    color: #2d3950;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.service_one p,
+.service_two p,
+.service_three p {
+    color: #999999;
+    font-size: 15px;
+    margin-bottom: 150px;
+}
+
+/* service css ends */
+
+#portfolio {
+    padding-bottom: 100px;
+}
+
+.portflio_heading {
+    text-align: center;
+}
+.portflio_heading h2 {
+    font-size: 40px;
+    color: #2d3950;
+    margin-bottom: 20px;
+}
+.portflio_heading p {
+    font-size: 15px;
+    color: #909090;
+    margin-bottom: 80px;
+}
+
+.gly {
+    position: relative;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.gly_icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 164, 250, .6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+
+.gly_icon a{
+    line-height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.gly:hover .gly_icon {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* portfolio css ends */
+
+#contact{
+    background: url(../images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact_overlay {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.contact_heading {
+    text-align: center;
+}
+
+.contact_heading h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact_heading p {
+    color: #999999;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+form {
+    text-align: center;
+}
+
+form>input {
+    color: #999999;
+    display: block;
+    margin: 0 auto;
+    width: 540px;
+    height: 60px;
+    padding-left: 14px;
+    background: transparent;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+form>textarea {
+    color: #999999;
+    display: block;
+    margin: 0 auto;
+    width: 540px;
+    height: 160px;
+    padding-left: 14px;
+    padding-top: 14px;
+    background: transparent;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.form_footer {
+    line-height: 52px;
+}
+
+.form_footer #check {
+    background: #9aa0a9;
+}
+
+.form_footer label {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.form_footer button {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 16px 50px;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    outline: 0;
+    background: transparent;
+    margin-left: 20%;
+}
+
+/* contact css ends */
+
+#footer {
+    height: 90px;
+}
+
+.copyright {
+    float: left;
+}
+
+.copyright p {
+    color: #999999;
+    font-size: 15px;
+    line-height: 90px;
+}
+
+.social {
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.social_icon {
+    width: 40px;
+    height: 40px;
+    margin: 25px 5px;
+    background-color: #15a4fa;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.social_icon a {
+    color: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .nav ul li a {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .bnr_content h1 {
+        font-size: 80px;
+    }
+    .service_one,
+    .service_two,
+    .service_three {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav ul li a {
+        font-size: 14px;
+        margin: 0 5px;
+        font-weight: bold;
+    }
+    .bnr_content h1 {
+        font-size: 80px;
+    }
+    .service_one,
+    .service_two,
+    .service_three {
+        width: 50%;
+        float: left;
+    }
+    form>input {
+        width: 100%;
+    }
+
+    form>textarea {
+        width: 100%;
+    }
+    .form_footer button {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #header {
+        height: 65px;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo a {
+        line-height: 65px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    .nav ul li a {
+        line-height: 80px;
+        font-size: 14px;
+        margin: 0 5px;
+        font-weight: bold;
+    }
+    .nav ul li a span {
+        display: none;
+    }
+    .bnr_content h1 {
+        font-size: 32px;
+    }
+    .service_one,
+    .service_two,
+    .service_three {
+        width: 100%;
+        float: left;
+    }
+    form>input {
+        width: 100%;
+    }
+    form>textarea {
+        width: 100%;
+    }
+    .form_footer button {
+        padding: 0 30px;
+    }
+}
